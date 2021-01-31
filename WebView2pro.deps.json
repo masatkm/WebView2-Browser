@@ -1,0 +1,80 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "WebView2pro/1.0.0": {
+        "dependencies": {
+          "Microsoft.Web.WebView2": "1.0.705.50",
+          "MIULib": "1.0.0.0"
+        },
+        "runtime": {
+          "WebView2pro.dll": {}
+        }
+      },
+      "Microsoft.Web.WebView2/1.0.705.50": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.705.50",
+            "fileVersion": "1.0.705.50"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.705.50",
+            "fileVersion": "1.0.705.50"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.705.50",
+            "fileVersion": "1.0.705.50"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm/native/WebView2Loader.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "1.0.705.50"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.705.50"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.705.50"
+          }
+        }
+      },
+      "MIULib/1.0.0.0": {
+        "runtime": {
+          "MIULib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebView2pro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2/1.0.705.50": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YjqCZ+WqVNKgPX2j5p3onk+sM3fCidljozelDHApaC4r6/sVohFTyna4m2A3Z0ynCsMoR1xOI4VffW+JLSWEXw==",
+      "path": "microsoft.web.webview2/1.0.705.50",
+      "hashPath": "microsoft.web.webview2.1.0.705.50.nupkg.sha512"
+    },
+    "MIULib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
